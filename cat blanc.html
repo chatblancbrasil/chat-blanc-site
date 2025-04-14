@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chat Blanc Brasil</title>
+  <style>
+    :root {
+      --primary-color: #0aff9d;
+      --bg-color: #111;
+      --text-color: #f0f0f0;
+      --card-bg: #1c1c1c;
+      --accent-color: #ffffff;
+    }
+
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: var(--bg-color);
+      color: var(--text-color);
+    }
+
+    header {
+      background: linear-gradient(90deg, #000, #333);
+      padding: 1.5rem 2rem;
+      box-shadow: 0 4px 8px rgba(0, 255, 157, 0.3);
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+
+    header h1 {
+      margin: 0;
+      color: var(--primary-color);
+      font-size: 2rem;
+    }
+
+    nav {
+      margin-top: 0.5rem;
+    }
+
+    nav a {
+      margin-right: 1rem;
+      text-decoration: none;
+      color: var(--text-color);
+      padding: 0.3rem 0.6rem;
+      border-radius: 6px;
+      transition: background-color 0.3s;
+    }
+
+    nav a:hover {
+      background-color: var(--primary-color);
+      color: #000;
+    }
+
+    main {
+      padding: 2rem;
+    }
+
+    .card {
+      background-color: var(--card-bg);
+      border-left: 5px solid var(--primary-color);
+      border-radius: 12px;
+      padding: 1.5rem;
+      margin-bottom: 2rem;
+      box-shadow: 0 4px 16px rgba(0, 255, 157, 0.2);
+      transition: transform 0.2s;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+    }
+
+    .card h2 {
+      color: var(--accent-color);
+    }
+
+    .card ul li {
+      margin: 0.5rem 0;
+    }
+
+    footer {
+      background-color: #1a1a1a;
+      text-align: center;
+      padding: 1rem;
+      font-size: 0.9rem;
+      color: #999;
+      border-top: 1px solid #333;
+    }
+
+    .season-link {
+      font-size: 1.2rem;
+      color: var(--primary-color);
+      text-decoration: none;
+      padding: 0.5rem 1rem;
+      border: 2px solid var(--primary-color);
+      border-radius: 8px;
+      margin: 10px 0;
+    }
+
+    .season-link:hover {
+      background-color: var(--primary-color);
+      color: #000;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Chat Blanc Brasil</h1>
+    <nav>
+      <a href="#">Início</a>
+      <a href="#temporadas">Temporadas</a>
+      <a href="#noticias">Notícias</a>
+      <a href="#contato">Contato</a>
+    </nav>
+  </header>
+
+  <main>
+    <div class="card">
+      <h2>Bem-vindo ao Chat Blanc Brasil</h2>
+      <p>O seu portal de notícias e episódios sobre Miraculous: As Aventuras de Ladybug, com foco no universo de Chat Blanc!</p>
+    </div>
+
+    <div class="card" id="temporadas">
+      <h2>Temporadas</h2>
+      <p>Escolha a temporada para assistir os episódios:</p>
+      <a href="#temporada1" class="season-link">Temporada 1</a>
+      <!-- Adicionar links para outras temporadas conforme necessário -->
+    </div>
+
+    <div class="card" id="temporada1">
+      <h2>Episódios - Temporada 1</h2>
+
+      <!-- Episódio 1 -->
+      <h3>Episódio 1 - O Sentido do Amor</h3>
+      <iframe src="https://cnbr.nl/player?temporada=1&episodio=1" width="100%" height="500px" frameborder="0" allowfullscreen></iframe>
+
+      <!-- Episódio 2 -->
+      <h3>Episódio 2 - O Guerreiro da Luz</h3>
+      <iframe src="https://cnbr.nl/player?temporada=1&episodio=2" width="100%" height="500px" frameborder="0" allowfullscreen></iframe>
+
+      <!-- Episódio 3 -->
+      <h3>Episódio 3 - O Mistério da Máscara</h3>
+      <iframe src="https://cnbr.nl/player?temporada=1&episodio=3" width="100%" height="500px" frameborder="0" allowfullscreen></iframe>
+
+      <!-- Episódio 4 -->
+      <h3>Episódio 4 - Copycat</h3>
+      <iframe src="https://cnbr.nl/player?temporada=1&episodio=4" width="100%" height="500px" frameborder="0" allowfullscreen></iframe>
+
+      <!-- Episódio 5 -->
+      <h3>Episódio 5 - O Confessionário</h3>
+      <iframe src="https://cnbr.nl/player?temporada=1&episodio=5" width="100%" height="500px" frameborder="0" allowfullscreen></iframe>
+
+      <!-- Episódio 6 -->
+      <h3>Episódio 6 - O Domínio do Espelho</h3>
+      <iframe src="https://cnbr.nl/player?temporada=1&episodio=6" width="100%" height="500px" frameborder="0" allowfullscreen></iframe>
+
+      <!-- Episódio 7 -->
+      <h3>Episódio 7 - O Teste do Poder</h3>
+      <iframe src="https://cnbr.nl/player?temporada=1&episodio=7" width="100%" height="500px" frameborder="0" allowfullscreen></iframe>
+
+      <!-- Episódio 8 -->
+      <h3>Episódio 8 - O Pesadelo de Ladybug</h3>
+      <iframe src="https://cnbr.nl/player?temporada=1&episodio=8" width="100%" height="500px" frameborder="0" allowfullscreen></iframe>
+
+      <!-- Episódio 9 -->
+      <h3>Episódio 9 - O Despertar de Chat Noir</h3>
+      <iframe src="https://cnbr.nl/player?temporada=1&episodio=9" width="100%" height="500px" frameborder="0" allowfullscreen></iframe>
+
+      <!-- Episódio 10 -->
+      <h3>Episódio 10 - A Transformação Final</h3>
+      <iframe src="https://cnbr.nl/player?temporada=1&episodio=10" width="100%" height="500px" frameborder="0" allowfullscreen></iframe>
+
+      <!-- Episódio 11 -->
+      <h3>Episódio 11 - O Paradoxo do Destino</h3>
+      <iframe src="https://cnbr.nl/player?temporada=1&episodio=11" width="100%" height="500px" frameborder="0" allowfullscreen></iframe>
+
+      <!-- Episódio 12 -->
+      <h3>Episódio 12 - O Efeito da Transformação</h3>
+      <iframe src="https://cnbr.nl/player?temporada=1&episodio=12" width="100%" height="500px" frameborder="0" allowfullscreen></iframe>
+
+      <!-- Episódio 13 -->
+      <h3>Episódio 13 - A Jornada Secreta</h3>
+      <iframe src="https://cnbr.nl/player?temporada=1&episodio=13" width="100%" height="500px" frameborder="0" allowfullscreen></iframe>
+
+      <!-- Episódio 14 -->
+      <h3>Episódio 14 - Copycat</h3>
+      <iframe src="https://cnbr.nl/player?temporada=1&episodio=14" width="100%" height="500px" frameborder="0" allowfullscreen></iframe>
+
+      <!-- Episódio 15 -->
+      <h3>Episódio 15 - A Visita Fatal</h3>
+      <iframe src="https://cnbr.nl/player?temporada=1&episodio=15" width="100%" height="500px" frameborder="0" allowfullscreen></iframe>
+
+      <!-- Episódio 16 -->
+      <h3>Episódio 16 - O Último Desafio</h3>
+      <iframe src="https://cnbr.nl/player?temporada=1&episodio=16" width="100%" height="500px" frameborder="0" allowfullscreen></iframe>
+
+      <!-- Episódio 17 -->
+      <h3>Episódio 17 - A Guerra Final</h3>
+      <iframe src="https://cnbr.nl/player?temporada=1&episodio=17" width="100%" height="500px" frameborder="0" allowfullscreen></iframe>
+
+      <!-- Episódio 18 -->
+      <h3>Episódio 18 - O Mistério Desvendado</h3>
+      <iframe src="https://cnbr.nl/player?temporada=1&episodio=18" width="100%" height="500px" frameborder="0" allowfullscreen></iframe>
+
+      <!-- Episódio 19 -->
+      <h3>Episódio 19 - O Teste Final</h3>
+      <iframe src="https://cnbr.nl/player?temporada=1&episodio=19" width="100%" height="500px" frameborder="0" allowfullscreen></iframe>
+
+      <!-- Episódio 20 -->
+      <h3>Episódio 20 - O Novo Caminho</h3>
+      <iframe src="https://cnbr.nl/player?temporada=1&episodio=20" width="100%" height="500px" frameborder="0" allowfullscreen></iframe>
+
+      <!-- Episódio 21 -->
+      <h3>Episódio 21 - O Poder do Amor</h3>
+      <iframe src="https://cnbr.nl/player?temporada=1&episodio=21" width="100%" height="500px" frameborder="0" allowfullscreen></iframe>
+
+      <!-- Episódio 22 -->
+      <h3>Episódio 22 - O Retorno do Poder</h3>
+      <iframe src="https://cnbr.nl/player?temporada=1&episodio=22" width="100%" height="500px" frameborder="0" allowfullscreen></iframe>
+
+      <!-- Episódio 23 -->
+      <h3>Episódio 23 - O Herói Proibido</h3>
+      <iframe src="https://cnbr.nl/player?temporada=1&episodio=23" width="100%" height="500px" frameborder="0" allowfullscreen></iframe>
+
+      <!-- Episódio 24 -->
+      <h3>Episódio 24 - O Segredo do Passado</h3>
+      <iframe src="https://cnbr.nl/player?temporada=1&episodio=24" width="100%" height="500px" frameborder="0" allowfullscreen></iframe>
+
+      <!-- Episódio 25 -->
+      <h3>Episódio 25 - O Último Inimigo</h3>
+      <iframe src="https://cnbr.nl/player?temporada=1&episodio=25" width="100%" height="500px" frameborder="0" allowfullscreen></iframe>
+
+      <!-- Episódio 26 -->
+      <h3>Episódio 26 - A Vitória Final</h3>
+      <iframe src="https://cnbr.nl/player?temporada=1&episodio=26" width="100%" height="500px" frameborder="0" allowfullscreen></iframe>
+    </div>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Chat Blanc Brasil. Todos os direitos reservados.</p>
+  </footer>
+</body>
+</html>
